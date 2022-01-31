@@ -7,16 +7,63 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="topBar">
+        <a href="https://github.com/Rhubert710"><img id="gitHubIcon" src="gitHubIcon.png" alt=""></a>
+    </div>
+
+    <img id="profilePicture" src="profilePicture.jpeg" alt="">    
+
+    <h1 id="name">Robert Hubert</h1>
+
+    <h2 id="description">Renewable Energy / Software</h2>
 </body>
 </html>
 <style>
     body{
-        /* background-image: url(https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/croppedshutterstock1934730587IKL8jpg.JPEG); */
-        /* background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/wind-turbine-9.jpg); */
-        background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/wind-turbine-pictures-2.jpg);
-        /* background-image: url(https://ambassadeurs.com/wp-content/uploads/2020/12/sustainability-dec-1-2048x1151.jpg); */
+        background-image: url(https://ambassadeurs.com/wp-content/uploads/2020/12/sustainability-dec-1-2048x1151.jpg);
         background-repeat: no-repeat;
-        background-size:;
+        background-size:cover;}
+
+        #topBar{
+            display: flex;
+            background-color: teal;
+            height: 6vh;
         }
+        #gitHubIcon{
+            height: 100%;
+            margin-left: 40%;
+        }
+        #profilePicture{
+            border-radius: 50%;
+            width: 15%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8%;}
+
+        #name{
+            color:whitesmoke;
+            text-align: center;
+            font-size: 400%;
+            letter-spacing:.4vw;
+            font-family: system-ui;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            margin-bottom: 1%;}
+
+        #description{
+            color:whitesmoke;
+            text-align: center;
+            font-size: 250%;
+            letter-spacing:.4vw;
+            font-family: system-ui;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            margin-top: 2%;}
 </style>
